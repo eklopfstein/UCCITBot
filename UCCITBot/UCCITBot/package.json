@@ -1,9 +1,0 @@
-{
-  "name": "uccitbot",
-  "version": "0.0.0",
-  "description": "UCCITBot",
-  "main": "app.js",
-  "author": {
-    "name": ""
-  }
-}
