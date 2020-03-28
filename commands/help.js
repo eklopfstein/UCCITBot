@@ -1,4 +1,7 @@
-﻿const botconfig = require("./../botconfig.json");
+﻿// eklopfstein
+// March 28th 2020
+// adding document headers
+const botconfig = require("./../botconfig.json");
 
 module.exports.run = async (bot, message, args) => {
     {

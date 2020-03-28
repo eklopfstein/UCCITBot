@@ -1,3 +1,6 @@
+// eklopfstein
+// March 28th 2020
+// adding document headers
 const botconfig = require("./../botconfig.json");
 const permissions = require("./../permissions.json");
 
