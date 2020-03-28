@@ -1,8 +1,9 @@
 const botconfig = require("./../botconfig.json");
+const permissions = require("./../permissions.json");
 
 module.exports.run = async (bot, message, args) => {
     // If user is not an admin
-    if (!message.member.hasPermission(botconfig.admin)) {
+    if (!message.member.hasPermission(permissions.admin)) {
         // Inform them they cannot use this command
         return message.reply("Only admins can use this command.");
     }

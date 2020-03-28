@@ -1,10 +1,10 @@
 const botconfig = require("./botconfig.json");
 const tokenfile = require("./token.json");
+const locations = require("./locations.json");
 const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client({ disableEveryone: true });
 bot.commands = new Discord.Collection();
-const channelID = "691688299919573067"; // general channel ID
 
 // Reads through files in the commands folder
 fs.readdir("./commands/", (err, files) => {
@@ -32,6 +32,12 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
+
+    // List off all members in the server
+    let server = bot.guilds.get('564330850465087539');
+    server.members.forEach(member => {
+        console.log(member.user.username)
+    });
 });
 
 // When any message is sent

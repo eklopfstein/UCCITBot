@@ -1,5 +1,4 @@
 {
   "power": "off",
-  "prefix": "!",
-  "admin": "0x00000008"
+  "prefix": "!"
 }

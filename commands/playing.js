@@ -1,10 +1,11 @@
 const botconfig = require("./../botconfig.json");
+const permissions = require("./../permissions.json");
 let game = "";
 
 module.exports.run = async (bot, message, args) => {
     {
         // If the bot is "off" don't run the command
-        if (botconfig.power == "off") {
+        if (permissions.power == "off") {
             return;
         }
         // If bot is "on" but user is not an admin
