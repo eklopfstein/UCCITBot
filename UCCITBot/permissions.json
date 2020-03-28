@@ -1,0 +1,8 @@
+{
+  "admin": "0x00000008",
+  "channelControl": "0x00000010",
+  "guildControl": "0x00000020",
+  "mute": "0x00400000",
+  "deafen": "0x00800000",
+  "manageRoles": "0x10000000"
+}
