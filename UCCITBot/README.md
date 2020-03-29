@@ -1,7 +1,8 @@
 ﻿# UCCITBot
 # To use code on your own bot
-# 1. Make new file in base directory called "token.json"
-# 2. Add following code and replace BOTTOKEN with your bot token
+# 1. Go to https://nodejs.org/en/ and download Node.js
+# 2. Make new file in base directory called "token.json"
+# 3. Add following code and replace BOTTOKEN with your bot token
 {
   "token": "BOTTOKEN"
 }
