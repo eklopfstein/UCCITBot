@@ -313,7 +313,6 @@
     <Content Include="node_modules\ws\README.md" />
     <Content Include="package.json" />
     <Content Include="permissions.json" />
-    <Content Include="README.md" />
     <Content Include="token.json" />
   </ItemGroup>
   <ItemGroup>
