@@ -1,6 +1,6 @@
 // eklopfstein
-// March 28th 2020
-// adding document headers
+// April 28th 2020
+// adding message filter
 const botconfig = require("./botconfig.json");
 const tokenfile = require("./token.json");
 const locations = require("./locations.json");
@@ -45,6 +45,7 @@ bot.on("ready", async () => {
 
 // When any message is sent
 bot.on("message", async message => {
+    bot.commands.get("filter").run(bot, message);
     // Ignores own messages
     if (message.author.bot) return;
     // currently does not take commands over DM

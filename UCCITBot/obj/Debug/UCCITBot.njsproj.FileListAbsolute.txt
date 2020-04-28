@@ -1,3 +1,6 @@
 C:\Users\elija\OneDrive\Desktop\Bots\UCCITBot\UCCITBot\obj\Debug\UCCITBot.njsprojAssemblyReference.cache
 C:\Users\elija\OneDrive\Desktop\Bots\UCCITBot\UCCITBot\obj\Debug\UCCITBot.njsproj.CoreCompileInputs.cache
 C:\Users\elija\OneDrive\Desktop\Bots\UCCITBot\UCCITBot\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\elija\Documents\GitHub\UCCITBot\UCCITBot\obj\Debug\UCCITBot.njsprojAssemblyReference.cache
+C:\Users\elija\Documents\GitHub\UCCITBot\UCCITBot\obj\Debug\UCCITBot.njsproj.CoreCompileInputs.cache
+C:\Users\elija\Documents\GitHub\UCCITBot\UCCITBot\bin\Microsoft.NodejsTools.WebRole.dll

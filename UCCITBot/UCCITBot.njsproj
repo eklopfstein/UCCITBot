@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="commands\filter.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="commands\help.js">
       <SubType>Code</SubType>
     </Compile>
